@@ -8,7 +8,7 @@
     "start": "node dev-server.js",
     "prepare": "yarn prod",
     "preprod": "mkdir -p dist; NODE_ENV='production' node prod.js",
-    "prod": "babili dist/tner.js --no-comments --minified -o dist/tner.min.js",
+    "prod": "babili dist/tner.js -o dist/tner.min.js",
     "test": "jest",
     "test:ci": "yarn test -- --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
