@@ -1,6 +1,6 @@
 {
   "name": "tner",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/tner.umd.js",
   "jsnext:main": "dist/tner.es.js",
@@ -13,8 +13,7 @@
     "test:ci": "yarn test -- --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": "nju33/tner",
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "nju33 <nju33.ki@gmail.com>",
   "license": "MIT",
   "bugs": {
